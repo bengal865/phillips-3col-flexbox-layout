@@ -1,0 +1,23 @@
+/* My CSS Variables */
+
+/* By declaring your CSS variables inside the
+ * :root selector, your CSS variables will have
+ * GLOBAL scope, which means you can use them 
+ * in all areas of your web page
+ */
+ 
+ :root {
+	--pageBg: #c2cfc3;
+	--blue: #0000ff;
+	--white: #ffffff;
+	--red: #ff0000;
+	--green: #00ff00;
+	--charcoal: #413333;
+	--orange: #f1581b;
+	--limeGreen: #96f11b;
+	--skyBlue: #1b8df1;
+	--flatBlue: #76cde2;
+	--robinsEgg: #2fdeca;
+	--steelBlue: #609fbd;
+	--desertSand: #d8b56a;
+}
