@@ -1,0 +1,15 @@
+/* The reset rule below uses the * (or universal selector) to
+ * select (target) ALL elements in your web page 
+ * The reset rule sets the margin and padding of ALL your page
+ * elements to zero
+ * 
+ * The CSS box-sizing property allows you to include the
+ * padding and border in an element's total width and height
+*/
+
+/* Here is the CSS reset rule */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
