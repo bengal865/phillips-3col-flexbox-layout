@@ -1,5 +1,46 @@
 /* Abraham Lincoln */
 /* 01 SEP 2021 */
-/* Style Sheet Template */
+/* 3-Column Flexbox Layout */
 
-/* This is a CSS comment */
+#container {
+    margin: 20px;
+}
+
+header{
+    background-color: var(--orange); /* The CSS var() function is used to insert the value of a CSS variable. */
+    min-height: 150px;
+    padding: 5px;
+}
+
+main{
+    background-color: var(--robinsEgg);
+    min-height: 500px;
+
+
+    display: flex; /* Flexbox parent container */
+    flex-flow: row wrap; /* Combines two flex properties in one line */
+}
+
+aside:nth-child(1){
+    flex: 0 0 200px;
+    background-color: var(--limeGreen);
+    padding: 5px;
+}
+
+aside:nth-child(3){
+    flex: 0 0 250px;
+    background-color: var(--green);
+    padding: 5px;
+}
+
+article{
+    flex: 1 0 auto;
+    background-color: #C5CCD4;
+    padding: 5px;
+}
+
+footer {
+    background-color: var(--desertSand);
+    min-height: 50px;
+    padding: 5px;
+}

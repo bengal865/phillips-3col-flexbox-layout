@@ -1,26 +1,15 @@
 <!DOCTYPE html>
-
-<!-- Your HTML starts with the opening HTML tag -->
-<!-- Set language attribute (lang) for page to English -->
 <html lang="en">
-	
-<!-- Web page head contains info about your page for your web browser -->
 <head>
 	
-	<!-- Specify the character set you want your browser to use for this page -->
 	<meta charset="utf-8">
-	<!-- Make page width match screen width of device and set zoom level
-	when browser first loads the page -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Link pointing to an external style sheet named styles.css -->
-	<!-- TIP: You can link multiple style sheets to the same page -->
+	
 	<link rel = "stylesheet" href = "my-reset-rule.css">
-	<link rel = "stylesheet" href = "styles.css">
 	<link rel = "stylesheet" href = "my-css-variables.css">
+	<link rel = "stylesheet" href = "style.css">
 
-	<!-- Page title appears in browser tab -->
-	<title>Insert Web Page Title</title>
+	<title>3-COL Flex Layout / Phillips</title>
 	
 </head>
 
@@ -28,16 +17,21 @@
 	
 	<!-- Abraham Lincoln -->
 	<!-- 04 JUL 2021 -->
-	<!-- My Web Page Template -->
-	
-	<!-- Add all visible page content to the body of your web page -->
-	
-	<p>A short paragraph in a very basic web page.</p>
-	
-	<!-- Load external JavaScript -->
-    <script src="main.js"></script>
+	<!-- 3-column Flexbox Layout -->
+
+	<div id="container">
+		<header>
+			Page header
+		</header>
+
+		<main>
+			<aside>Aside 1</aside>
+			<article>Article</article>
+			<aside>Aside 2</aside>
+		</main>
+
+		<footer><small>Copyright &copy; 2021 by Abraham Lincoln</small></footer>
+	</div><!-- End of container DIV -->
 
 </body>
-
-<!-- HTML ends with the closing HTML tag -->
 </html>
